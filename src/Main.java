@@ -29,10 +29,21 @@ public class Main {
 
         //Задание 4*.
 
+
         String lastName4 = "Ivanov";
         String firstName4 = "Ivan";
         String middleName4 = "Ivanovich";
-        String fullName4 = lastName4 + " " + firstName4 + " " + middleName4;
+        String fullName4 = lastName4 + middleName4 + firstName4;
+        String str  = ("Ivanov Ivan Ivanovich");
+        System.out.println(str.indexOf('I'));
+        System.out.println(str.indexOf(' '));
+        System.out.println(str.lastIndexOf('h') + 1);
+        String s1 = fullName4.substring(0,6);
+        System.out.println("Фамилия сотрудника —  " + s1);
+
+
+
+
 
 
 
